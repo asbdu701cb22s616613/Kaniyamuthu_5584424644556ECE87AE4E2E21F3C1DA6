@@ -1,0 +1,15 @@
+#3.1 write a function called linear_search_product that takes the list of products and a target product name as input. The functions to the perform a linear search to find the target product in the list and written year list of indices of all occurrences of the product if found or and empty list if the product is not found. 
+def linear_search_product(product_list,target_product):
+   indices =[]
+   for I,product in enumerate(product_list):
+      if product == target_product:
+         indices.appent (i)
+   return indices 
+# Example usage 
+product =["apple","banana","apple","orang","apple"]
+target ="apple "
+result=linear_search_product(product, target)
+if result:
+  print(f"The product '{target}' was found at Indices:{result}")
+else:
+ print(f"The product '{target}' was not found in the list")
